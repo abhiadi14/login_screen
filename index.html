@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/image.jpg">
+</head>
+
+<body>
+    <div class="login">
+         <img src="images/image.jpg" alt="Image" class="img">
+        <h1>Sign in</h1>
+        <form id="loginForm">
+            <div>
+                <label for="username">Email</label>
+                <input type="text" id="username" placeholder="Enter your email Address" required>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+                <a href="#" class="forgot-password" id="forgotPassword">Forgot Password?</a>
+            </div>
+            <div class="remember-me">
+                <input type="checkbox" id="rememberMe">
+                <label for="rememberMe">Keep me signed in for 30 days</label>
+            </div>
+            <button type="submit">Sign in</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
